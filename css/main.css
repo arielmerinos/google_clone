@@ -144,3 +144,35 @@ main .main__buttons button:hover{
     border: #c6c6c6 1px solid;
     box-shadow: 0 1px 6px 0 #c6c6c6 ;
 }
+
+
+footer{
+    height: 12%;
+    width: 100%;
+    /* Así nos aseguramos que el footer se va a quedar hasta abajo */
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid transparent;
+}
+
+footer .footer__left{
+    display: flex;
+    list-style: none;
+    justify-self: left;
+}
+
+footer .footer__right{
+    list-style: none;
+    display: flex;
+    justify-self: right;
+
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
